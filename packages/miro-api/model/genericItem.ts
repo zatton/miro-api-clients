@@ -15,6 +15,7 @@ import {Geometry} from './geometry'
 import {ModifiedBy} from './modifiedBy'
 import {Parent} from './parent'
 import {Position} from './position'
+import {Style} from './style'
 import {WidgetData} from './widgetData'
 
 /**
@@ -94,6 +95,11 @@ export class GenericItem {
       name: 'position',
       baseName: 'position',
       type: 'Position',
+    },
+    {
+      name: 'style',
+      baseName: 'style',
+      type: 'Style',
     },
     {
       name: 'type',
